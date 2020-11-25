@@ -15,6 +15,7 @@
 import tensorflow as tf
 from utillity import *
 
+
 def random_flip_horizontal(image, boxes):
     """Flips image and boxes horizontally with 50% chance
 
